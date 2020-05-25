@@ -1,6 +1,6 @@
-#include "alpha.h"
+#include "head/alpha.h"
 
 int main(int argc, char *argv[])
 {
-    return run(argc, argv);
+    return factory::run(argc, argv);
 }
